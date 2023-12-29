@@ -1,6 +1,8 @@
-# Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit
+## NAME : T.KAVINAJAI
+## REGISTER NUMBER: 212223100020
 
-# Implementation-of-Half-Adder-and-Full-Adder-circuit
+# Exp-03-Implementation-of-Half-Adder-and-Full-Adder-circuit
+
 ### AIM:
 To design a half adder and full adder circuit and verify its truth table in Quartus using Verilog programming.
 
@@ -36,19 +38,43 @@ Switch ON the main switch
 If the output is 1, then the led glows.
 ### 
 Program:
-/*
-Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+```
+Program to design a half and full adder circuit and verify its truth table in quartus using Verilog programming.
+module half_adder(A,B,C,S);
+input A,B;
+output S,C;
+assign c=A&B;
+assign S=A^B;
+endmodule
+module FullAdder(a,b,carryin,sum,carryout);
+input a,b,carryin;
+output sum,carryout;
+wire x,p,q,r;
+xor(x,b,carryin);
+xor(sum,x,a);
+and(p,a,b);
+and(q,b,carryin);
+and(r,a,carryin);
+or(carryout,p,q,r);
+endmodule
+```
 */
 Logic symbol & Truthtable
+## HALF ADDER
+![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/245bb05f-3d0a-4677-a17a-79833554e2b4)
+## FULL ADDER
+![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/47619696-660b-4fff-89ba-6eb6a8d9dacc)
+
 RTL realization
-
-### Output:
-### RTL
-### TIMING DIAGRAM
-
-
-### TRUTH TABLE 
+## HALF ADDER
+![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/797f34ec-840f-4156-9860-62d9a474b280)
+## FULL ADDER
+![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/9a4da041-dca5-4565-bf89-d5dec7982aeb)
+## TIMING DIAGRAM
+## HALF ADDER
+![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/00b8d919-a78f-44cc-9cc1-6f96f43f1843)
+## FULL ADDER
+![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/277cb13f-0c62-4e87-b519-c93e7e8f76ec)
 
 ### Result:
+Thus the given logic functions are implemented and their operations are verified using verilog programming
