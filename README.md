@@ -13,8 +13,10 @@ Theory
 Adders are digital circuits that carry out addition of numbers.
 
 ### Procedure
-Connect the supply (+5V) to the circuit
-Switch ON the main switch
+Connect the supply (+5V) to the circuit.
+
+Switch ON the main switch.
+
 If the output is 1, then the led glows.
 
 ##   THEORY:
