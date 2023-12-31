@@ -59,15 +59,16 @@ or(carryout,p,q,r);
 endmodule
 ```
 ## OUTPUT:
-Logic symbol & Truthtable
+## Logic symbol & Truthtable
 ## HALF ADDER:
 ![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/457dc511-a245-45fc-ae02-b23b6da6feb1)
 ## FULL ADDER:
-![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/af0aa161-4e4e-4b32-ad10-b74d351ad4b5)
+![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/8c0389d6-27de-4d78-8ed7-436f5f5711c9)
 
 ## RTL realization:
 ## HALF ADDER:
-![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/5f4787f5-ebe5-4723-8d90-a3ee68273e91)
+![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/61ea7fb2-5934-40ec-8c81-e3790329e22b)
+
 ## FULL ADDER:
 ![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/1d8c265a-d046-416f-8b2d-b26e3475b193)
 ## TIMING DIAGRAM:
