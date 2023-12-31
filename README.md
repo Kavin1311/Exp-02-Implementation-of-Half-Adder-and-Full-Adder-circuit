@@ -12,12 +12,12 @@ Software – Quartus prime
 Theory
 Adders are digital circuits that carry out addition of numbers.
 
-### Half Adder
+### Half Adder:
 Half adder is a combinational circuit that performs simple addition of two binary numbers. The input variables designate the augend and addend bits; the output variables produce the sum and carry. It is necessary to specify two output variables because the result may consist of two binary digits.
 
 Sum = A’B+AB’ =A ⊕ B Carry = AB
 
-### Full Adder
+### Full Adder:
 Full adder is a digital circuit used to calculate the sum of three binary bits. It consists of three inputs and two outputs. Two of the input variables, denoted by A and B, represent the two significant bits to be added. The third input, Cin, represents the carry from the previous lower significant position. Two outputs are necessary because the arithmetic sum of three binary digits ranges in value from 0 to 3, and binary 2 or 3 needs two digits. The two outputs are sum and carry.
 
 Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = AB + ACin + BCin
@@ -72,10 +72,10 @@ Logic symbol & Truthtable
 ![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/1d8c265a-d046-416f-8b2d-b26e3475b193)
 ## TIMING DIAGRAM:
 
-## HALF ADDER
+## HALF ADDER:
 ![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/6f58239b-1d09-43ea-b63a-43c250de8669)
 
-## FULL ADDER
+## FULL ADDER:
 ![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/73bbccbd-d8e0-4704-b158-90fece884c91)
 
 
