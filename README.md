@@ -56,7 +56,8 @@ endmodule
 ## OUTPUT:
 ## Logic symbol & Truthtable
 ## HALF ADDER:
-![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/457dc511-a245-45fc-ae02-b23b6da6feb1)
+![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/cccd6f09-e2ea-4cb5-bbce-526ac122009a)
+
 ## FULL ADDER:
 ![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/8c0389d6-27de-4d78-8ed7-436f5f5711c9)
 
