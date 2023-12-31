@@ -67,7 +67,7 @@ endmodule
 
 ## RTL realization:
 ## HALF ADDER:
-![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/61ea7fb2-5934-40ec-8c81-e3790329e22b)
+![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/7930bac4-7dc3-44f5-9420-316c09605ae6)
 
 ## FULL ADDER:
 ![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/1d8c265a-d046-416f-8b2d-b26e3475b193)
