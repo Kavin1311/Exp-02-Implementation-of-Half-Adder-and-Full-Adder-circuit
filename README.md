@@ -1,4 +1,4 @@
-## NAME : T.KAVINAJAI
+## NAME : KAVINAJAI.T
 ## REGISTER NUMBER: 212223100020
 
 # Exp-03-Implementation-of-Half-Adder-and-Full-Adder-circuit
