@@ -12,6 +12,14 @@ Software – Quartus prime
 Theory
 Adders are digital circuits that carry out addition of numbers.
 
+### Procedure
+Connect the supply (+5V) to the circuit
+Switch ON the main switch
+If the output is 1, then the led glows.
+
+##   THEORY:
+Adders are digital circuits that carry out addition of numbers.
+
 ### Half Adder:
 Half adder is a combinational circuit that performs simple addition of two binary numbers. The input variables designate the augend and addend bits; the output variables produce the sum and carry. It is necessary to specify two output variables because the result may consist of two binary digits.
 
@@ -27,11 +35,6 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
 ## FIGURE - 02- FULL ADDER:
 ![image](https://github.com/Kavin1311/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/145695724/f0f5b44e-ee26-4234-be69-1abd306b4633)
 
-### Procedure
-
-Connect the supply (+5V) to the circuit
-Switch ON the main switch
-If the output is 1, then the led glows.
 ###  Program:
 Program to design a half and full adder circuit and verify its truth table in quartus using Verilog programming.
 ## HALF ADDER
